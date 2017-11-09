@@ -30,6 +30,8 @@ import static com.example.student.myapplication.R.id.myview;
 public class MainActivity extends AppCompatActivity {
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -140,6 +142,7 @@ public class MainActivity extends AppCompatActivity {
                 for (int ni = i - 1; ni >= 0; ni--) {
                     int curri = cards[i][j].getNum();
                     int checki = cards[ni][j].getNum();
+
 
                     if (checki > 0) {
                         if (curri == 0) {
@@ -392,4 +395,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+
+
 }

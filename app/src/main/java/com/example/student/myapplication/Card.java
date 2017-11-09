@@ -9,9 +9,7 @@ import android.widget.TextView;
 
 import static android.widget.ListPopupWindow.WRAP_CONTENT;
 
-/**
- * Created by student on 2017/10/12.
- */
+
 
 public class Card extends FrameLayout {
 
